@@ -84,7 +84,7 @@ The following permissions should be available in the database
         - *DCCID* filter is an exact filter (Shows only the record with this exact value)
         - *External ID* and *PSCID* are contains filters (Shows all records that contains this value)
     - Genomic filters
-        * For the four filters, selecting 'Any' should only present record that have at least one, and selecting 'None' should present only record that don't have Files, SNP, CNV or CPG accordingly.
+        * For the four filters, selecting 'Yes' should only present record that have at least one, and selecting 'No' should present only record that don't have Files, SNP, CNV or CPG accordingly.
 
 - The datatable should display the folowing columns (Summary fields)
 
@@ -98,7 +98,7 @@ No.|PSC|DCCID|PSCID|Gender|Subproject|DoB|ExternalID|Files|SNPs|CNVs|CPGs|
 | ---| --- | --- | ---| --- | ---| --- | ---| ---| --- | ---| ---|
 | | | | | | | | | | | |
 
-- Clicking the *Clear Form* button should reset the filters and the Datatable should prensent the Summary fields columns only.
+- Clicking the *Clear Form* button should reset the filters and the Datatable should present the Summary fields columns only.
 - Clicking on column headers should sort data in ascending order on the first click then descending order on the second click.
 
 
@@ -128,7 +128,7 @@ No.|PSC|DCCID|PSCID|Gender|Subproject|DoB|ExternalID|Files|SNPs|CNVs|CPGs|
         - *DCCID* filter is an exact filter (Shows only the record with this exact value)
         - *External ID* and *PSCID* are contains filters (Shows all records that contains this value)
     - Genomic Range filters
-        - *Genomic Range* filter should filter SNP to prensent only SNP that *StartLoc* is contain withing the range (i.e. chr14:100000-200000 should prensent all the SNP on the chromosome 14 between position 1000000 and 2000000 inclusively.
+        - *Genomic Range* filter should filter SNP to present only SNP that *StartLoc* is contain withing the range (i.e. chr14:100000-200000 should present all the SNP on the chromosome 14 between position 1000000 and 2000000 inclusively.
         - By entering only the chromosome name in the *Genomic Range*, all the SNP on that chromosome should appear.
     - SNP filters
         - All the filters are contains filters (Shows all records that contains this value)
